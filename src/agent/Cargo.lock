@@ -744,7 +744,7 @@ dependencies = [
  "regex",
  "thiserror",
  "winapi",
- "winreg 0.10.1",
+ "winreg 0.11.0",
 ]
 
 [[package]]
@@ -1872,7 +1872,7 @@ dependencies = [
  "urlparse",
  "uuid 0.8.2",
  "winapi",
- "winreg 0.10.1",
+ "winreg 0.11.0",
 ]
 
 [[package]]
@@ -3648,7 +3648,7 @@ dependencies = [
  "log",
  "os_pipe",
  "winapi",
- "winreg 0.10.1",
+ "winreg 0.11.0",
 ]
 
 [[package]]
@@ -3817,10 +3817,11 @@ dependencies = [
 
 [[package]]
 name = "winreg"
-version = "0.10.1"
+version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "80d0f4e272c85def139476380b12f9ac60926689dd2e01d4923222f40580869d"
+checksum = "76a1a57ff50e9b408431e8f97d5456f2807f8eb2a2cd79b06068fc87f8ecf189"
 dependencies = [
+ "cfg-if 1.0.0",
  "winapi",
 ]
 
